@@ -147,3 +147,8 @@ h2:last-child:hover{
     background-color: rgba(75, 79, 79, 0.9);
     transition: ease 0.5s;
 }
+.aboutInfo{
+    font-family: "Calibri";
+    width:25%;
+    float:left;
+}
