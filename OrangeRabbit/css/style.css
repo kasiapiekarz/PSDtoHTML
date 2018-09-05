@@ -149,6 +149,17 @@ h2:last-child:hover{
 }
 .aboutInfo{
     font-family: "Calibri";
+    font-size:15px;
+    line-height: 23px;
     width:25%;
     float:left;
+    padding: 5px 10px 0 20px;
+    margin-top:23px;
+}
+.aboutInfo a{
+    text-decoration: none;
+    float: right;
+    color:#fb9c06;
+    
+    
 }
