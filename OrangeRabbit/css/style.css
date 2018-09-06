@@ -342,8 +342,12 @@ textarea {
     box-sizing: border-box;
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: none;
     resize: vertical;
+    background-color: #f8f7f6;
+    -webkit-box-shadow: inset 2px 1px 0px 0px rgba(210,208,207,1);
+-moz-box-shadow: inset 2px 1px 0px 0px rgba(210,208,207,1);
+box-shadow: inset 2px 1px 0px 0px rgba(210,208,207,1);
 }
 
 label {
@@ -374,4 +378,13 @@ input[type=submit] {
     font-family: "StMarie-Thin";
     font-size: 30px;
     margin-top: 30px;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(211,148,47,1);
+-moz-box-shadow: inset 0px -5px 0px 0px rgba(211,148,47,1);
+box-shadow: inset 0px -5px 0px 0px rgba(211,148,47,1);
+    transition: ease 0.3s;
+}
+input[type=submit]:hover{
+    background-color: #4b4e4e;
+    color:#fb9c06;
+    transition: ease 0.3s;
 }
