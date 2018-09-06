@@ -3,210 +3,375 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/*RESET CSS END*/
-/*GENERAL RULES*/
-@font-face{
-    font-family: Bebas;
-    src:url("BEBAS.ttf");
-    }
-@font-face{
-    font-family: Calibri;
-    src:url("Calibri.ttf");
-    }
-@font-face{
-    font-family: StMarie-Thin;
-    src:url("StMarie-Thin.otf");
-    }
-*{
-    box-sizing: border-box;
-}
-.container{
-    max-width: 1200px;
-    width:100%;
-    margin:0 auto;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-.clearfix::after{
-    content:"";
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*RESET CSS END*/
+
+
+/*GENERAL RULES*/
+
+@font-face {
+    font-family: Bebas;
+    src: url("BEBAS.ttf");
+}
+
+@font-face {
+    font-family: Calibri;
+    src: url("Calibri.ttf");
+}
+
+@font-face {
+    font-family: StMarie-Thin;
+    src: url("StMarie-Thin.otf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
     display: block;
     height: 0;
     clear: both;
 }
 
+
 /* ---------- Section header -------- */
-.logo{
-    margin-top:5px;
+
+.logo {
+    margin-top: 5px;
     margin-bottom: 28px;
 }
-.alignLeft{
-    float:left;
+
+.alignLeft {
+    float: left;
 }
-.alignRight{
+
+.alignRight {
     float: right;
 }
-nav li{
+
+nav li {
     display: inline-block;
     margin-left: 70px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 28px;
     font-family: "Calibri";
-    font-size:22px;
+    font-size: 22px;
     line-height: 26px;
     transition: all 0.2s ease-in-out;
 }
-nav li:hover{
+
+nav li:hover {
     transform: scale(1.2);
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: #9e9b9b;
 }
 
-.navIcon{
+.navIcon {
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     padding-bottom: 18px;
-    
 }
-.banner{
+
+.banner {
     background-image: url("../img/big-orange-bg.png");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     border-top: 6px solid #fb9c06;
     border-bottom: 6px solid #fb9c06;
 }
-.bannerText{
+
+.bannerText {
     max-width: 33%;
-    margin-top:130px;
-    margin-bottom:100px;
+    margin-top: 130px;
+    margin-bottom: 100px;
 }
-h2{
+
+h2 {
     font-family: "Bebas";
     font-size: 37px;
     text-transform: uppercase;
     text-align: center;
 }
-h2:first-child{
-    color:#fb9c06;
+
+h2:first-child {
+    color: #fb9c06;
     background-color: rgba(75, 79, 79, 0.9);
     margin-bottom: 28px;
-    margin-left:21px;
-    padding:17px 15px 17px 30px;
+    margin-left: 21px;
+    padding: 17px 15px 17px 30px;
     transition: ease 0.5s;
 }
-h2:first-child:hover{
-    color:#4c4f4f;
+
+h2:first-child:hover {
+    color: #4c4f4f;
     background-color: rgba(251, 156, 6, 0.7);
     transition: ease 0.5s;
 }
-h2:last-child{
-    color:#4c4f4f;
+
+h2:last-child {
+    color: #4c4f4f;
     background-color: rgba(251, 156, 6, 0.7);
-    padding:20px 18px 20px 30px;
+    padding: 20px 18px 20px 30px;
     margin-left: 11px;
     transition: ease 0.5s;
 }
-h2:last-child:hover{
-    color:#fb9c06;
+
+h2:last-child:hover {
+    color: #fb9c06;
     background-color: rgba(75, 79, 79, 0.9);
     transition: ease 0.5s;
 }
 
+
 /* ---------- Section about -------- */
-.aboutInfo{
+
+.aboutInfo {
     font-family: "Calibri";
-    font-size:15px;
+    font-size: 15px;
     line-height: 23px;
-    width:25%;
-    float:left;
+    width: 25%;
+    float: left;
     padding: 5px 10px 0 20px;
-    margin-top:23px;
+    margin-top: 23px;
     margin-bottom: 30px;
 }
-.aboutInfo a{
+
+.aboutInfo a {
     text-decoration: none;
     float: right;
-    color:#fb9c06;
-    
-    
+    color: #fb9c06;
 }
+
+
 /* ---------- Section team -------- */
-#team .container{
+
+#team .container,
+#contact .container {
     text-align: center;
     padding: 30px 0;
 }
-h3{
-    font-size:40px;
+
+h3 {
+    font-size: 40px;
     font-family: "StMarie-Thin";
-    color:#fb9c06;
+    color: #fb9c06;
     display: inline-block;
     margin-bottom: 45px;
     border-bottom: 1px solid #fb9c06;
-    
-}
-.col4Team{
-    float:left;
-    width:33.33%;
-    padding: 0 45px;
-    font-family: "Calibri";
-    
-    
 }
 
-h4{
+.col4Team {
+    float: left;
+    width: 33.33%;
+    padding: 0 45px;
+    font-family: "Calibri";
+}
+
+h4 {
     text-align: center;
     margin-bottom: 32px;
     font-size: 22px;
 }
-h4 span{
-    color:#fb9c06;
+
+h4 span {
+    color: #fb9c06;
 }
-p{
+
+p {
     text-align: left;
     font-size: 15px;
     line-height: 23px;
     margin-top: 23px;
+}
+
+
+/* ---------- Section contact -------- */
+form{
+    font-family: "StMarie-Thin";
+    font-size:24px;
+    text-align: left;
+    color:#fb9c06;
+}
+input[type=text],
+input[type=email],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.col15 {
+    float: left;
+    width: 15%;
+    margin-top: 26px;
+}
+
+.col85 {
+    float: left;
+    width: 85%;
+    margin-top: 26px;
+}
+
+input[type=submit] {
+    width: 175px;
+    height: 45px;
+    background-color: #fb9c06;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    float: right;
+    font-family: "StMarie-Thin";
+    font-size: 30px;
+    margin-top: 30px;
 }
