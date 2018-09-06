@@ -388,3 +388,19 @@ input[type=submit]:hover{
     color:#fb9c06;
     transition: ease 0.3s;
 }
+/* ---------- Section footer -------- */
+footer{
+    background-color: #fb9c06;
+}
+
+footer p{
+    background-color: #fb9c06;
+    font-size:33px;
+    font-family: "StMarie-Thin";
+    text-align: center;
+    text-transform: uppercase; 
+    color:#fff;
+    padding:20px 0;
+    line-height: 23px;
+    
+}
