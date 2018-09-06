@@ -56,6 +56,10 @@ table {
     font-family: Calibri;
     src:url("Calibri.ttf");
     }
+@font-face{
+    font-family: StMarie-Thin;
+    src:url("StMarie-Thin.otf");
+    }
 *{
     box-sizing: border-box;
 }
@@ -160,6 +164,7 @@ h2:last-child:hover{
     float:left;
     padding: 5px 10px 0 20px;
     margin-top:23px;
+    margin-bottom: 30px;
 }
 .aboutInfo a{
     text-decoration: none;
@@ -169,3 +174,39 @@ h2:last-child:hover{
     
 }
 /* ---------- Section team -------- */
+#team .container{
+    text-align: center;
+    padding: 30px 0;
+}
+h3{
+    font-size:40px;
+    font-family: "StMarie-Thin";
+    color:#fb9c06;
+    display: inline-block;
+    margin-bottom: 45px;
+    border-bottom: 1px solid #fb9c06;
+    
+}
+.col4Team{
+    float:left;
+    width:33.33%;
+    padding: 0 45px;
+    font-family: "Calibri";
+    
+    
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 22px;
+}
+h4 span{
+    color:#fb9c06;
+}
+p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 23px;
+}
