@@ -13,6 +13,7 @@ header{
 }
 h1{
     text-align: center;
+    color:  #4c4f4f;
 }
 .hidden {
     visibility: hidden;
@@ -21,7 +22,7 @@ h1{
 .container {
     display: flex;
     flex-flow: row wrap;
-    margin: 0 auto;
+    margin: 30px;
     overflow: hidden;
    
 }
