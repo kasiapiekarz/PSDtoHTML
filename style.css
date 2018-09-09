@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0
 }
-
+body{
+     background-color: #f0f0f0;
+}
 .hidden {
     visibility: hidden;
 }
@@ -11,22 +15,37 @@
     flex-flow: row wrap;
     margin: 0 auto;
     overflow: hidden;
+   
 }
 
 .item {
-    width: 25%;
-    height: 300px;
-    border: 1px solid grey;
+    width: calc(25% - 20px);
+    height: 250px;
+/*    border: 1px solid grey;*/
     background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    transition: all 0.3s;
+}
+.item:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.15);
 }
 
 .item a {
     text-decoration: none;
 }
+h4{
+    text-align: center;
+    margin-top: 20px;
+    color:#4c4f4f;
+    font-size: 18px;
+    
+}
 
 .cover {
     width: 100%;
-    height: 60%;
+    height: 70%;
     border-bottom: 1px solid grey;
     background-color: pink;
     background-image: url(OrangeRabbit/orangeRabbit.jpg);
