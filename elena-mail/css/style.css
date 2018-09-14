@@ -23,40 +23,52 @@
     height: 600px;
 }
 
-h2 {
+#header .container {
     text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+h2 {
     padding: 30px;
     font-size: 52px;
     color: #fff;
 }
 
-ul {
-    text-align: center;
-}
-
 li {
     display: inline-block;
-    text-transform: uppercase;
-    color: #fff;
+    cursor: pointer;
     padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
     font-size: 13px;
-    line-height: 24px;
 }
 
 h1 {
     color: #fff;
-    text-transform: uppercase;
-    text-align: center;
     padding-top: 58px;
+    padding-bottom: 20px;
     font-size: 53px;
 }
 
 h4 {
     color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+    padding: 22px;
 }
-button{
+
+button {
     display: block;
-    margin:0 auto;
+    margin: 60px auto 80px auto;
+    height: 40px;
+    width: 240px;
+    border-radius: 25px;
+    background-color: #50c3af;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
