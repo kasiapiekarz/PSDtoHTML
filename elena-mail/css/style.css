@@ -12,6 +12,10 @@
     margin: 0 auto;
     padding: 40px 20px;
 }
+@font-face{
+    font-family: Belinda;
+    src: url("belinda.otf");
+}
 
 
 /* -------- Section header -------*/
@@ -32,7 +36,9 @@
 h2 {
     padding: 30px;
     font-size: 52px;
+    font-family: "Belinda";
     color: #fff;
+    text-transform: none;
 }
 
 li {
@@ -44,6 +50,7 @@ a{
     text-decoration: none;
     color: #fff;
     font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -51,11 +58,15 @@ h1 {
     padding-top: 58px;
     padding-bottom: 20px;
     font-size: 53px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    
 }
 
 h4 {
     color: #fff;
     padding: 22px;
+    font-family: "PTSans", sans-serif;
 }
 
 button {
@@ -68,6 +79,7 @@ button {
     color: #fff;
     text-transform: uppercase;
     font-size: 15px;
+    font-family: "PTSans", sans-serif;
     outline: none;
     border: none;
     cursor: pointer;
