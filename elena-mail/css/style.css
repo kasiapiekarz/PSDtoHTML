@@ -10,9 +10,10 @@
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 0;
 }
-@font-face{
+
+@font-face {
     font-family: Belinda;
     src: url("belinda.otf");
 }
@@ -46,7 +47,8 @@ li {
     cursor: pointer;
     padding: 20px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
     font-size: 13px;
@@ -60,7 +62,6 @@ h1 {
     font-size: 53px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
-    
 }
 
 h4 {
@@ -85,75 +86,118 @@ h4 {
     cursor: pointer;
 }
 
+
 /* -------- Section features -------*/
-#features{
+
+#features {
     background-color: #eeeeef;
 }
-#features .container .col{
+
+#features .container .col {
     display: inline-block;
     text-align: center;
-    width:33%;
+    width: 33%;
     font-family: "PTSans", sans-serif;
     line-height: 24px;
 }
-#features .container img{
-    padding-top:10px;
+
+#features .container img {
+    padding-top: 10px;
 }
-#features .container h3{
+
+#features .container h3 {
     font-size: 18px;
     text-transform: uppercase;
-    padding-top:30px;
-    color:#40474e;
-    
+    padding-top: 30px;
+    color: #40474e;
 }
-#features .container h3::after{
-    content:"";
-    display: block;
-    margin:30px auto;
-    width:145px;
-    border-bottom:2px solid #e2e3e4;
-}
-#features .container p{
-    font-size: 14px;
-    padding:23px 2px;
-    color:#adafb1;
-}
-/* -------- Section services -------*/
-#services .col{
-    display: inline-block;
-    text-align: center;
-    width:49%;
-    line-height: 24px;
 
+#features .container h3::after {
+    content: "";
+    display: block;
+    margin: 30px auto;
+    width: 145px;
+    border-bottom: 2px solid #e2e3e4;
 }
-#services .photo1{
+
+#features .container p {
+    font-size: 16px;
+    padding: 23px 2px;
+    color: #adafb1;
+}
+
+
+/* -------- Section services -------*/
+
+#services .container {
+    border: 1px solid yellow;
+}
+
+#services .col {
+    display: inline-block;
+    width: 49%;
+    line-height: 24px;
+}
+
+#services .photo1 {
     background-image: url(../img/col-1.png);
+}
+
+#services .photo2 {
+    background-image: url(../img/col-2.png);
+    margin-left: 15px;
+}
+
+#services .photo {
     background-repeat: no-repeat;
     background-position: center;
-    background-size:auto;
-    width:65%;
-    height:166px;
-    margin:0 auto;
-    
+    background-size: auto;
+    width: 100%;
+    height: 166px;
+    margin-bottom: 42px;
 }
-#services .photo2{
-    background-image: url(../img/col-2.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size:auto;
-    width:65%;
-    height:166px;
-    margin:0 auto;
-    
-}
-#services h3{
+
+#services h3 {
     font-family: "PSSans", sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-align: left;
+    padding: 0 5px;
 }
-#services p{
+
+#services p {
     font-family: "PSSans", sans-serif;
     font-size: 14px;
     text-align: left;
+    padding: 32px 5px;
+}
+
+.col2 h3,
+.col2 p,
+.col2 button {
+    margin-left: 15px;
+    
+}
+
+#services h3::after {
+    content: "";
+    display: block;
+    margin: 25px 0;
+    width: 290px;
+    border-bottom: 2px solid #eaeaeb;
+}
+#services button{
+    display: block;
+    height: 36px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #50c3af;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding:5px;
+    font-family: "PTSans", sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
