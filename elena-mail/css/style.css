@@ -17,6 +17,7 @@
     font-family: Belinda;
     src: url("belinda.otf");
 }
+
 @font-face {
     font-family: Entypo;
     src: url("entypo.otf");
@@ -125,9 +126,9 @@ h4 {
 }
 
 #features .container p {
-    font-size: 16px;
-    padding: 23px 2px;
-    color: #adafb1;
+    font-size: 14px;
+    padding: 23px 15px;
+    color: #787b80;
 }
 
 
@@ -137,6 +138,7 @@ h4 {
     display: inline-block;
     width: 49%;
     line-height: 24px;
+    margin-top: 25px;
 }
 
 #services .photo1 {
@@ -157,7 +159,8 @@ h4 {
     margin-bottom: 42px;
 }
 
-#services h3, #servicesII h3 {
+#services h3,
+#servicesII h3 {
     font-family: "PSSans", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -165,19 +168,19 @@ h4 {
     padding: 0 5px;
 }
 
-#services p, #servicesII p {
+#services p,
+#servicesII p {
     font-family: "PSSans", sans-serif;
     font-size: 14px;
     text-align: left;
-    padding: 32px 5px;
-    color:#787b80;
+    padding: 0 5px 32px 5px;
+    color: #787b80;
 }
 
 .col2 h3,
 .col2 p,
 .col2 button {
     margin-left: 15px;
-    
 }
 
 #services h3::after {
@@ -187,7 +190,9 @@ h4 {
     width: 290px;
     border-bottom: 2px solid #eaeaeb;
 }
-#services button, #servicesII button{
+
+#services button,
+#servicesII button {
     display: block;
     height: 36px;
     width: 100px;
@@ -196,33 +201,39 @@ h4 {
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
-    padding:5px;
+    padding: 5px;
     font-family: "PTSans", sans-serif;
     outline: none;
     border: none;
     cursor: pointer;
     margin-bottom: 30px;
 }
+
+
 /* -------- Section servicesII -------*/
-#servicesII{
+
+#servicesII {
     background-color: #eeeeef;
     line-height: 24px;
-    padding-top:35px;
-    
+    padding-top: 35px;
 }
-#servicesII h3 span{
+
+#servicesII h3 span {
     font-family: "Entypo";
-    font-size:50px;
+    font-size: 50px;
     font-weight: 100;
-    color:#c6cbd1;
+    color: #c6cbd1;
     padding-right: 10px;
 }
-#servicesII h3{
+
+#servicesII h3 {
     text-transform: uppercase;
 }
-#servicesII button{
+
+#servicesII button {
     background-color: #d2d5da;
 }
+
 #servicesII h3::after {
     content: "";
     display: block;
@@ -230,6 +241,30 @@ h4 {
     width: 100%;
     border-bottom: 2px solid #eaeaeb;
 }
-#servicesII p{
-    padding-top:0;
+
+#servicesII p {
+    padding-top: 0;
+}
+/* -------- Section about -------*/
+
+#about .col{
+    display: inline-block;
+    width:33%;
+}
+.photo1{
+    background-image: url(../img/lights.png);
+}
+.photo2{
+    background-image: url(../img/zebra.png);
+}
+.photo3{
+    background-image: url(../img/trainers.png);
+}
+.photo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 40px;
 }
