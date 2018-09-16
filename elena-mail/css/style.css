@@ -17,6 +17,10 @@
     font-family: Belinda;
     src: url("belinda.otf");
 }
+@font-face {
+    font-family: Entypo;
+    src: url("entypo.otf");
+}
 
 
 /* -------- Section header -------*/
@@ -200,4 +204,15 @@ h4 {
     outline: none;
     border: none;
     cursor: pointer;
+    margin-bottom: 30px;
+}
+/* -------- Section servicesII -------*/
+#servicesII{
+    background-color: #eeeeef;
+}
+h3 span{
+    font-family: "Entypo";
+    font-size:50px;
+    font-weight: 100;
+    color:#c6cbd1;
 }
