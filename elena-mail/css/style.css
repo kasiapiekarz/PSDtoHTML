@@ -121,7 +121,7 @@ h4 {
     content: "";
     display: block;
     margin: 30px auto;
-    width: 145px;
+    width: 75%;
     border-bottom: 2px solid #e2e3e4;
 }
 
@@ -160,7 +160,7 @@ h4 {
 }
 
 #services h3,
-#servicesII h3, #about h3 {
+#servicesII h3, #about h3, #section6 h3 {
     font-family: "PSSans", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -170,7 +170,8 @@ h4 {
 }
 
 #services p,
-#servicesII p {
+#servicesII p,
+#section6 p{
     font-family: "PSSans", sans-serif;
     font-size: 14px;
     text-align: left;
@@ -178,9 +179,9 @@ h4 {
     color: #787b80;
 }
 
-.col2 h3,
-.col2 p,
-.col2 button {
+#services .col2 h3,
+#services .col2 p,
+#services .col2 button {
     margin-left: 15px;
 }
 
@@ -188,19 +189,19 @@ h4 {
     content: "";
     display: block;
     margin: 25px 0;
-    width: 290px;
+    width: 100%;
     border-bottom: 2px solid #eaeaeb;
 }
 
 #services button,
-#servicesII button {
+#servicesII button,
+#section6 button{
     display: block;
     height: 36px;
     width: 100px;
     border-radius: 25px;
     background-color: #50c3af;
     color: #fff;
-    text-transform: uppercase;
     font-size: 14px;
     padding: 5px;
     font-family: "PTSans", sans-serif;
@@ -213,7 +214,7 @@ h4 {
 
 /* -------- Section servicesII -------*/
 
-#servicesII {
+#servicesII,#section6 {
     background-color: #eeeeef;
     line-height: 24px;
     padding-top: 35px;
@@ -293,4 +294,29 @@ h4 {
     font-family: "PSSans", sans-serif;
     font-size:14px;
     line-height: 24px;
+}
+/* -------- Section 6  -------*/
+
+#section6 h3 span{
+    font-family: "Entypo";
+    font-weight:100;
+    font-size:50px;
+    color:#c6cbd1;
+}
+#section6 .col{
+    display: inline-block;
+    width:44%;
+}
+#section6 .col1{
+    margin-right: 5%;
+}
+#section6 .col2{
+    margin-left: 5%;
+}
+ #section6 h3::after{
+    content: "";
+    display: block;
+    margin: 25px 0;
+    width: 95%;
+    border-bottom: 2px solid #eaeaeb;
 }
