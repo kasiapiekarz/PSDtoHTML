@@ -160,7 +160,7 @@ h4 {
 }
 
 #services h3,
-#servicesII h3, #about h3, #section6 h3 {
+#servicesII h3, #about h3, #section6 h3, #section7 h3 {
     font-family: "PSSans", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -171,7 +171,8 @@ h4 {
 
 #services p,
 #servicesII p,
-#section6 p{
+#section6 p,
+#section7 p{
     font-family: "PSSans", sans-serif;
     font-size: 14px;
     text-align: left;
@@ -195,7 +196,7 @@ h4 {
 
 #services button,
 #servicesII button,
-#section6 button{
+#section6 button, #section7 button{
     display: block;
     height: 36px;
     width: 100px;
@@ -313,10 +314,50 @@ h4 {
 #section6 .col2{
     margin-left: 5%;
 }
- #section6 h3::after{
+ #section6 h3::after, #section7 h3::after{
     content: "";
     display: block;
     margin: 25px 0;
     width: 95%;
     border-bottom: 2px solid #eaeaeb;
+}
+/* -------- Section 7  -------*/
+#section7 div.col{
+    float:left;
+    width:44%;
+    margin:60px 0;
+    
+}
+#section7 .container::after{
+    content:"";
+    display: block;
+    height:0;
+    clear:both;
+    
+}
+#section7 div.col1{
+    background-image:url(../img/people.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size:cover;
+    height: 210px;
+    margin-right: 5%;
+}
+#section7 div.col2{
+    margin-left:5%;
+    line-height: 24px;
+    
+}
+#section7 button{
+     background-color: #d2d5da;
+}
+/* -------- Section 8  -------*/
+#section8{
+    background-color: #50c3af;
+    text-align: center;
+    color:#fff;
+    font-family: "PTSans",sans-serif;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
