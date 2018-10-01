@@ -34,6 +34,7 @@
 }
 
 
+
 /* -------- Section header -------*/
 
 #header {
@@ -448,4 +449,24 @@ p.footer{
     font-size: 13px;
     line-height: 24px;
     color: #787b80;
+}
+
+div.social{
+    color:#b5b7b9;
+    float: right;
+}
+.icon-facebook, .icon-twitter{
+    font-size:27px;
+}
+.icon-gplus{
+    font-size: 24px;
+}
+div.copyright{
+    float:left;
+}
+footer .container::after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
 }
