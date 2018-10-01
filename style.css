@@ -37,7 +37,7 @@ h1{
     transition: all 0.3s;
 }
 .item:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -57,7 +57,7 @@ h4{
     height: 70%;
 /*    border-bottom: 1px solid grey;*/
 /*    background-color: pink;*/
-    background-image: url(OrangeRabbit/orangeRabbit.jpg);
+   
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,4 +65,10 @@ h4{
 
 .item1 .cover {
     background-image: url(OrangeRabbit/orangeRabbit.jpg);
+}
+.item2 .cover {
+    background-image: url(chocolate-pudding-dessert/chocolate-pudding.jpg);
+}
+.item3 .cover {
+    background-image: url(elena-mail/elena-email-psd-theme.jpg);
 }
