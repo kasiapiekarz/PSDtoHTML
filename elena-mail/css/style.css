@@ -41,7 +41,7 @@
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    max-height:  height: 600px;
 }
 
 #header .container {
