@@ -61,7 +61,13 @@ h2 {
 #header li {
     display: inline-block;
     cursor: pointer;
-    padding: 20px;
+    padding: 20px 35px;
+    transition: ease 0.3;
+}
+#header li:hover{
+    font-weight: 700;
+    padding-bottom:0;
+    transition: ease 0.3;
 }
 
 a {
@@ -86,6 +92,7 @@ h4 {
     font-family: "PTSans", sans-serif;
 }
 
+
 #header button {
     display: block;
     margin: 60px auto 80px auto;
@@ -100,8 +107,14 @@ h4 {
     outline: none;
     border: none;
     cursor: pointer;
+    transition: all 0.5s;
 }
-
+#header button:hover{
+    background-color: #4fd9c1;
+    transition: all 0.3s;
+    transform:scale(1.01);
+    
+}
 
 /* -------- Section features -------*/
 
@@ -225,6 +238,14 @@ h4 {
     border: none;
     cursor: pointer;
     margin-bottom: 30px;
+    transition: all 0.5s;
+}
+#services button:hover,#servicesII button:hover,#section6 button:hover,
+#section7 button:hover {
+    background-color: #4fd9c1;
+    transition: all 0.3s;
+    transform:scale(1.01);
+    
 }
 
 
@@ -319,6 +340,10 @@ h4 {
     font-family: "PSSans", sans-serif;
     font-size: 14px;
     line-height: 24px;
+    
+}
+#about a:hover{
+    font-weight:700;
 }
 
 
