@@ -62,12 +62,11 @@ h2 {
     display: inline-block;
     cursor: pointer;
     padding: 20px 35px;
-    transition: ease 0.3;
+    
 }
-#header li:hover{
+#header a:hover{
     font-weight: 700;
-    padding-bottom:0;
-    transition: ease 0.3;
+    transition: all 0.3s;
 }
 
 a {
@@ -75,6 +74,7 @@ a {
     color: #fff;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s;
 }
 
 h1 {
@@ -340,10 +340,12 @@ h4 {
     font-family: "PSSans", sans-serif;
     font-size: 14px;
     line-height: 24px;
+    transition: all 0.2s;
     
 }
 #about a:hover{
     font-weight:700;
+    transition: all 0.2s;
 }
 
 
