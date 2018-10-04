@@ -34,14 +34,13 @@
 }
 
 
-
 /* -------- Section header -------*/
 
 #header {
     background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height:  height: 600px;
+    max-height: height: 600px;
 }
 
 #header .container {
@@ -62,9 +61,9 @@ h2 {
     display: inline-block;
     cursor: pointer;
     padding: 20px 35px;
-    
 }
-#header a:hover{
+
+#header a:hover {
     font-weight: 700;
     transition: all 0.3s;
 }
@@ -92,7 +91,6 @@ h4 {
     font-family: "PTSans", sans-serif;
 }
 
-
 #header button {
     display: block;
     margin: 60px auto 80px auto;
@@ -109,12 +107,13 @@ h4 {
     cursor: pointer;
     transition: all 0.5s;
 }
-#header button:hover{
+
+#header button:hover {
     background-color: #4fd9c1;
     transition: all 0.3s;
-    transform:scale(1.01);
-    
+    transform: scale(1.01);
 }
+
 
 /* -------- Section features -------*/
 
@@ -240,12 +239,14 @@ h4 {
     margin-bottom: 30px;
     transition: all 0.5s;
 }
-#services button:hover,#servicesII button:hover,#section6 button:hover,
+
+#services button:hover,
+#servicesII button:hover,
+#section6 button:hover,
 #section7 button:hover {
     background-color: #4fd9c1;
     transition: all 0.3s;
-    transform:scale(1.01);
-    
+    transform: scale(1.01);
 }
 
 
@@ -256,14 +257,6 @@ h4 {
     background-color: #eeeeef;
     line-height: 24px;
     padding-top: 35px;
-}
-
-#servicesII h3 span {
-    font-family: "Entypo";
-    font-size: 50px;
-    font-weight: 100;
-    color: #c6cbd1;
-    padding-right: 10px;
 }
 
 #servicesII button {
@@ -341,22 +334,15 @@ h4 {
     font-size: 14px;
     line-height: 24px;
     transition: all 0.2s;
-    
 }
-#about a:hover{
-    font-weight:700;
+
+#about a:hover {
+    font-weight: 700;
     transition: all 0.2s;
 }
 
 
 /* -------- Section 6  -------*/
-
-#section6 h3 span {
-    font-family: "Entypo";
-    font-weight: 100;
-    font-size: 50px;
-    color: #c6cbd1;
-}
 
 #section6 .col {
     display: inline-block;
@@ -427,12 +413,6 @@ h4 {
     font-weight: 700;
 }
 
-#section8 h3 span {
-    font-family: "Entypo";
-    font-size: 26px;
-    color: #fff;
-}
-
 #section8 ul {
     list-style: none;
     font-size: 26px;
@@ -443,7 +423,7 @@ h4 {
 #section8 li {
     display: inline-block;
     padding: 20px;
-    margin:0 5px;
+    margin: 0 5px;
 }
 
 #section8 li:first-child {
@@ -463,35 +443,44 @@ h4 {
 #section8 li:last-child {
     font-family: "NexaBold";
 }
+
 #section8 h3::after {
     content: "";
     display: block;
-    margin:30px auto;
+    margin: 30px auto;
     width: 50%;
-    border-bottom: 2px solid rgba(198, 203, 209, 0.5) ;
+    border-bottom: 2px solid rgba(198, 203, 209, 0.5);
 }
+
+
 /* -------- Footer  -------*/
-p.footer{
+
+p.footer {
     font-family: "PTSans", sans-serif;
     font-size: 13px;
     line-height: 24px;
     color: #787b80;
 }
 
-div.social{
-    color:#b5b7b9;
+div.social {
+    color: #b5b7b9;
     float: right;
 }
-.icon-facebook, .icon-twitter{
-    font-size:27px;
+
+.icon-facebook,
+.icon-twitter {
+    font-size: 27px;
 }
-.icon-gplus{
+
+.icon-gplus {
     font-size: 24px;
 }
-div.copyright{
-    float:left;
+
+div.copyright {
+    float: left;
 }
-footer .container::after{
+
+footer .container::after {
     content: "";
     display: block;
     height: 0;
