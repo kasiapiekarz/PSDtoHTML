@@ -382,7 +382,7 @@ h4 {
     clear: both;
 }
 
-#section7 div.col1 {
+#section7 div.photo {
     background-image: url(../img/people.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -486,3 +486,96 @@ footer .container::after {
     height: 0;
     clear: both;
 }
+
+
+/* --- Media queries --- */
+
+@media only screen and (max-width:900px) {
+    #services .col1 {
+        margin-left: 10px;
+        width: 48%;
+    }
+    #services .col2 {
+        margin-right: 10px;
+        width: 48%;
+    }
+    #servicesII .container,
+    #section6 .container,
+    #section7 .container,
+    footer {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width:810px) {
+    #features .container .col {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width:730px) {
+    .container{
+        border:2px solid red;
+        
+    }
+    #features .container .col, #services .container .col, #about .container .col, #section6 .container .col , #section7 .container .col {
+        display: block;
+        width: 100%;
+    }
+    #services h3, #about h3,#servicesII h3, #section6 h3, #section7 h3{
+        text-align: center;
+    }
+    #services p, #about .col,#about .col p,#servicesII p, #section6 p, #section7 p{
+        text-align: center;
+    }
+   #services .col button, #servicesII button, #section6 button, #section7 button{
+        margin: 10px auto;
+       
+    }
+    #services .col1 {
+        margin-left: 0;
+    }
+    #services .col2 {
+        margin-right: 0;
+        
+    }
+    #section6 .col{
+        margin-left:0;
+        margin-right:0;
+    }
+    #servicesII .container,
+    #section6 .container,
+    #section7 .container,footer
+   {
+        padding-left: 0;
+    }
+    #about .col{
+        margin:0;
+    }
+    .photo{
+        width:75%;
+        margin:0 auto;
+        
+    }
+    #section7 div.col{
+        float:none;
+    }
+
+   
+    #section7 div.col2{
+        padding: 0;
+        margin: 0;
+    }
+    footer .copyright{
+        float: none;
+    }
+    footer p{
+        text-align: center;
+    }
+    footer .social{
+        float: none;
+        text-align: center;
+    }
+}
+
+
