@@ -514,68 +514,105 @@ footer .container::after {
 }
 
 @media only screen and (max-width:730px) {
-    .container{
-        border:2px solid red;
-        
-    }
-    #features .container .col, #services .container .col, #about .container .col, #section6 .container .col , #section7 .container .col {
-        display: block;
-        width: 100%;
-    }
-    #services h3, #about h3,#servicesII h3, #section6 h3, #section7 h3{
-        text-align: center;
-    }
-    #services p, #about .col,#about .col p,#servicesII p, #section6 p, #section7 p{
-        text-align: center;
-    }
-   #services .col button, #servicesII button, #section6 button, #section7 button{
-        margin: 10px auto;
-       
-    }
     #services .col1 {
         margin-left: 0;
     }
     #services .col2 {
         margin-right: 0;
-        
     }
-    #section6 .col{
-        margin-left:0;
-        margin-right:0;
+    #features .container .col,
+    #services .container .col,
+    #about .container .col,
+    #section6 .container .col,
+    #section7 .container .col {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    #services h3,
+    #about h3,
+    #servicesII h3,
+    #section6 h3,
+    #section7 h3 {
+        text-align: center;
+    }
+    #services p,
+    #about .col,
+    #about .col p,
+    #servicesII p,
+    #section6 p,
+    #section7 p {
+        text-align: center;
+    }
+    #services .col button,
+    #servicesII button,
+    #section6 button,
+    #section7 button {
+        margin: 10px auto;
+    }
+    #section6 .col {
+        margin-left: 0;
+        margin-right: 0;
     }
     #servicesII .container,
     #section6 .container,
-    #section7 .container,footer
-   {
+    #section7 .container,
+    footer {
         padding-left: 0;
     }
-    #about .col{
-        margin:0;
+    #services .col1{
+        padding-bottom: 40px;
     }
-    .photo{
-        width:75%;
-        margin:0 auto;
-        
+    #about .col {
+        margin: 0;
+        padding-top: 40px;
     }
-    #section7 div.col{
-        float:none;
+    #about .col h3 {
+        margin-top: 20px;
     }
-
-   
-    #section7 div.col2{
-        padding: 0;
+    .photo {
+        width: 75%;
+        margin: 0 auto;
+    }
+    #section6 {
+        padding-top: 0;
+    }
+    #section6 div.col2 {
+        padding-top: 40px;
+    }
+    #section7 div.col {
+        float: none;
+    }
+    #section7 div.photo {
+        background-position: center;
+        background-size: auto;
         margin: 0;
     }
-    footer .copyright{
+    #section7 div.col2 {
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    #services h3::after,
+    #servicesII h3::after,
+    #about h3::after,
+    #section8 h3::after,
+    #section7 h3::after,
+    #section6 h3::after {
+        content: "";
+        display: block;
+        margin: 25px auto;
+        width: 75%;
+        border-bottom: 2px solid #eaeaeb;
+    }
+    footer .copyright {
         float: none;
     }
-    footer p{
+    footer p {
         text-align: center;
     }
-    footer .social{
+    footer .social {
         float: none;
         text-align: center;
+        margin-top: 20px;
     }
 }
-
-
