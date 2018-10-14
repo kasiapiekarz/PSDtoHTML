@@ -28,7 +28,7 @@ h1{
 }
 
 .item {
-    width: calc(25% - 20px);
+    width: calc(33% - 20px);
     height: 250px;
 /*    border: 1px solid grey;*/
     background-color: #4c4f4f;
