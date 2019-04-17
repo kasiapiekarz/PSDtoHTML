@@ -161,46 +161,105 @@ header {
     line-height: 37px;
     position: relative;
 }
-.choose-us-title h2:after{
-    content:"";
+
+.choose-us-title h2:after {
+    content: "";
     position: absolute;
     bottom: -12px;
     left: 0;
-    width:70px;
+    width: 70px;
     height: 1px;
     background-color: #129cf3;
 }
-.choose-us-title p{
+
+.choose-us-title p {
     margin-top: 40px;
     font-size: 19px;
     line-height: 24px;
 }
-.choose-us-item{
+
+.choose-us-item {
     position: relative;
-    padding-bottom:4px;
+    padding-bottom: 4px;
     padding-left: 80px;
 }
-.choose-us-item div{
+
+.choose-us-item div {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
-.choose-us-item div i{
+
+.choose-us-item div i {
     font-size: 55px;
-    color:#129cf3;
+    color: #129cf3;
     transition: all 1s;
     -webkit-transition: all 1s;
     -o-transition: all 1s;
     -moz-transition: all 1s;
 }
-.choose-us-item h3{
-    color:343434;
+
+.choose-us-item h3 {
+    color: #343434;
     text-transform: uppercase;
     font-size: 20px;
-    font-weight:800;
+    font-weight: 800px;
 }
-.choose-us-item p{
-    color:#727272;
-    font-size:15px;
-    
+
+.choose-us-item p {
+    color: #727272;
+    font-size: 15px;
 }
+
+
+/* ------------- TESTIMONIALS -------------- */
+
+.testimonial {
+    background-image: url("../img/testimonial-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+.testimonial-overlay{
+    background-color: rgba(31,31,31,.75);
+    padding: 80px 0;
+}
+.carousel-indicators{
+    bottom:-12px;
+}
+.carousel-inner .item img{
+    border:2px solid #129cf3;
+    border-radius: 50%;
+    padding: 3px;
+}
+.testimonial-caption{
+    padding-bottom: 70px;
+}
+
+.testimonial-caption h2{
+    color:#129cf3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:; 30px;
+    margin-top: 25px;
+}
+.testimonial-caption h4{
+    color:#129cf3;
+}
+.testimonial-caption h4 span{
+    color:#d8d8d8;
+    font-style: italic;
+    font-weight: 300;
+}
+.testimonial-caption p{
+    color:#d8d8d8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
+}
+
+/* ------------- FEATURES -------------- */
